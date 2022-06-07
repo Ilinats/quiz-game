@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="game.css" rel="stylesheet">
+        <script defer src="game.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="question" id="question">Question</div>
+            <div class="answer btns">
+                <table>
+                    <tr>
+                        <td class="btn">
+                            <button id="btn_1" class="btn" data-index="0" onclick="checkAnswer(this);">Answer 1</button>
+                        </td>
+                        <td class="btn">
+                            <button id="btn_2" class="btn" data-index="1" onclick="checkAnswer(this);">Answer 2</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="btn">
+                            <button id="btn_3" class="btn" data-index="2" onclick="checkAnswer(this);">Answer 3</button>
+                        </td>
+                        <td class="btn">
+                            <button id="btn_4" class="btn" data-index="3" onclick="checkAnswer(this);">Answer 4</button>
+                        </td>
+                    </tr>
+                </table>
+                <div class="questionNumbers">
+                    <a id="questionNumber"></a>
+                    <a>/ 15</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
