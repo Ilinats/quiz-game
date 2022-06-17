@@ -30,3 +30,26 @@ input, button {
 button {
     margin-left: 20px;
 }
+
+table { 
+    margin: auto; 
+    border-spacing: 200px 10px;
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+    position: relative;
+}
+
+.stupid {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+    padding-left: 0px;
+    padding-right: 0px; 
+    margin-top: 250px;
+    border-radius: 25px;
+    box-shadow: 0 0 2px rgb(255 255 255 / 12%), 0 0 4px rgb(255 255 255 / 12%), 0 0 8px rgb(255 255 255 / 12%), 0 0 16px rgb(255 255 255 / 12%), 0 0 32px rgb(255 255 255 / 12%), 0 0 64px rgb(255 255 255 / 12%);
+}

@@ -34,7 +34,7 @@ function sortByPoints(a, b) {
 window.onload = function addValue(){
     addEntry();
     console.log(existingEntries[0]);
-    document.getElementById('person1Name').innerHTML= existingEntries[0].name;
+    document.getElementById('person1Name').innerHTML= existingEntries[0].name;1
     document.getElementById('person1Points').innerHTML= existingEntries[0].points;
     document.getElementById('person2Name').innerHTML= existingEntries[1].name;
     document.getElementById('person2Points').innerHTML= existingEntries[1].points;
